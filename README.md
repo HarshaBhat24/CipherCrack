@@ -33,7 +33,7 @@ Once installed, you can use the tools directly from your command line
 caesar --help 
 
 # Decrypt the text by bruteforce example
-caesar -d
+caesar -b -c "xbs"
 ```
 
 Documentation for each individual tool can be found in their respective directories.
