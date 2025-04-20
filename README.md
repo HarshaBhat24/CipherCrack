@@ -27,14 +27,13 @@ sudo cp ./tools/caesar_cipher.py /usr/local/bin/caesar
 
 ## Usage
 
-Once installed, you can use the tools directly from your command line:
--u 
+Once installed, you can use the tools directly from your command line
 ```bash
 # Get help for any tool
 caesar --help 
 
 # Decrypt the text by bruteforce example
-caesar -b -c "xbs"
+caesar -d
 ```
 
 Documentation for each individual tool can be found in their respective directories.
