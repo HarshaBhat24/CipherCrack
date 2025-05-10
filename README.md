@@ -5,6 +5,7 @@ A collection of command line tools designed to help solve Capture The Flag (CTF)
 ## Available Tools
 
 - **Caesar Cipher** - A tool for encrypting and decrypting using the Caesar shift cipher
+- **ROT13 Decoder** - Tool similar to Caesar cipher to solve rot13 
 
 ## Coming Soon
 
@@ -22,12 +23,13 @@ git clone https://github.com/HarshaBhat24/CipherCrack.git
 cd CipherCrack
 
 # Copy the files to bin directory
-sudo cp ./tools/caesar_cipher.py /usr/local/bin/caesar 
+sudo cp ./tools/<cipher_cracker>.py /usr/local/bin/caesar 
 ```
 
 ## Usage
 
 Once installed, you can use the tools directly from your command line
+
 ```bash
 # Get help for any tool
 caesar --help 
