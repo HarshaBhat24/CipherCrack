@@ -8,6 +8,14 @@ This tool provides encryption and decryption for the Vigenère cipher using a re
 - Decrypt ciphertext using a known keyword
 - Handles non-alphabetic characters by leaving them unchanged
 
+## Installation
+
+```zsh
+# Make the script executable and copy to bin directory
+sudo chmod +x vignere.py
+sudo cp vignere.py /usr/local/bin/vignere
+```
+
 ## Usage
 
 ```zsh
@@ -28,8 +36,8 @@ vignere -d "RIJVS AIDPH" "KEY"
 ## Example
 
 ```zsh
-vignere -e "attack at dawn" "LEMON"
-vignere -d "LXFOPV EF RNHR" "LEMON"
+vignere -e "we are men, we must win" "stoic"
+vignere -d "OX OZG EXB, EG ENGB YAG" "stoic"
 ```
 
 ## Notes

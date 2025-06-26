@@ -7,6 +7,14 @@ This tool provides encryption, decryption, and brute-force breaking for the clas
 - Decrypt ciphertext using a specified shift
 - Brute-force all possible shifts to break a Caesar cipher
 
+## Installation
+
+```zsh
+# Make the script executable and copy to bin directory
+sudo chmod +x caesar_cipher.py
+sudo cp caesar_cipher.py /usr/local/bin/caesar
+```
+
 ## Usage
 
 ```zsh

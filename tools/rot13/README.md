@@ -6,6 +6,14 @@ This tool provides encoding and decoding for the ROT13 cipher. It is part of the
 - Encode or decode text using the ROT13 cipher
 - Simple, stateless transformation (same operation for encode/decode)
 
+## Installation
+
+```zsh
+# Make the script executable and copy to bin directory
+sudo chmod +x rot13.py
+sudo cp rot13.py /usr/local/bin/rot13
+```
+
 ## Usage
 
 ```zsh

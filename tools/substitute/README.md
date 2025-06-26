@@ -6,6 +6,14 @@ This tool provides encryption and decryption for monoalphabetic substitution cip
 - Encrypt or decrypt text using a user-supplied key
 - Supports any valid 26-letter permutation as the key
 
+## Installation
+
+```zsh
+# Make the script executable and copy to bin directory
+sudo chmod +x substitute.py
+sudo cp substitute.py /usr/local/bin/substitute
+```
+
 ## Usage
 
 ```zsh
