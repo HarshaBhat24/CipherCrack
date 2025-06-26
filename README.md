@@ -14,12 +14,13 @@ CipherCrack is a professional suite of command-line tools designed for Capture T
 - **Caesar Cipher** (`tools/caesar/`)
 - **ROT13 Decoder** (`tools/rot13/`)
 - **Substitution Cipher** (`tools/substitute/`)
+- **Vigenère Cipher Tool** (`tools/vignere`)
 
 Each tool includes its own README with detailed usage instructions and examples.
 
 ## Roadmap
 
-- Additional ciphers (Vigenère, XOR, etc.)
+- Additional ciphers (Hex, rc2, etc.)
 - Frequency analysis tools
 - Interactive and batch processing modes
 - Integration with other CTF utilities
