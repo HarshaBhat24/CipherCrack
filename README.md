@@ -15,6 +15,8 @@ CipherCrack is a professional suite of command-line tools designed for Capture T
 - **ROT13 Decoder** (`tools/rot13/`)
 - **Substitution Cipher** (`tools/substitute/`)
 - **Vigenère Cipher Tool** (`tools/vignere`)
+- **Affine Cipher Tool** (`tools/affine`)
+
 
 Each tool includes its own README with detailed usage instructions and examples.
 
