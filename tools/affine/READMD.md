@@ -38,7 +38,7 @@ affine -d "text-to-decrypt" <a> <b>
 
 ```zsh
 affine -e "we are men,we must win" 11 7
-vignere -d "pz hmz jzu,pz jtxi pru" 11 7
+affine -d "pz hmz jzu,pz jtxi pru" 11 7
 ```
 
 ## Notes
