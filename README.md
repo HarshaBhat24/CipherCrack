@@ -16,7 +16,7 @@ CipherCrack is a professional suite of command-line tools designed for Capture T
 - **Substitution Cipher** (`tools/substitute/`)
 - **Vigenère Cipher Tool** (`tools/vignere`)
 - **Affine Cipher Tool** (`tools/affine`)
-
+- **Hill Cipher Tool** (`tools\hill`)
 
 Each tool includes its own README with detailed usage instructions and examples.
 
