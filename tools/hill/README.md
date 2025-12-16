@@ -7,7 +7,17 @@ This tool provides encryption and decryption for Hill Cipher using N x N matrix 
 - Encrypt plaintext using N x N matrix input while ignoring whitespaces 
 - Decrypt plaintext using N x N matrix input while ignoring whitespaces(Upto 2x2 matrix input as key)
 
-## Installation 
+## Quick Start (Interactive Mode)
+
+You can access this cipher through the main CipherCrack menu:
+
+```zsh
+# From the CipherCrack root directory
+python main.py
+# Then select option 5 for Hill Cipher
+```
+
+## Installation (Standalone)
 
 ```zsh 
 # Make the script executable and copy to bin directory

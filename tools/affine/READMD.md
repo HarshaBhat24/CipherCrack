@@ -8,7 +8,17 @@ This tool provides encryption and decryption for the Affine cipher using a repea
 - Decrypt ciphertext using two integer variables between 1 and 25 (only odd numbers except 13)
 - Handles non-alphabetic characters by leaving them unchanged
 
-## Installation
+## Quick Start (Interactive Mode)
+
+You can access this cipher through the main CipherCrack menu:
+
+```zsh
+# From the CipherCrack root directory
+python main.py
+# Then select option 2 for Affine Cipher
+```
+
+## Installation (Standalone)
 
 ```zsh
 # Make the script executable and copy to bin directory

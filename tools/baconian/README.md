@@ -7,7 +7,17 @@ This tool provides encryption and decryption for Baconian Cipher for standard(24
 - Encrypt the plaintext for either standard or full alphabetic keys
 - Decrypt the plaintext for either standard or full alphabetic keys 
 
-## Insrallation 
+## Quick Start (Interactive Mode)
+
+You can access this cipher through the main CipherCrack menu:
+
+```zsh
+# From the CipherCrack root directory
+python main.py
+# Then select option 6 for Baconian Cipher
+```
+
+## Installation (Standalone)
 
 ```zsh
 # Make the script executable and copy to bin directory

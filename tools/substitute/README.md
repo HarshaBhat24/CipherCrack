@@ -6,7 +6,17 @@ This tool provides encryption and decryption for monoalphabetic substitution cip
 - Encrypt or decrypt text using a user-supplied key
 - Supports any valid 26-letter permutation as the key
 
-## Installation
+## Quick Start (Interactive Mode)
+
+You can access this cipher through the main CipherCrack menu:
+
+```zsh
+# From the CipherCrack root directory
+python main.py
+# Then select option 7 for Substitution Cipher
+```
+
+## Installation (Standalone)
 
 ```zsh
 # Make the script executable and copy to bin directory

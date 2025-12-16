@@ -6,7 +6,17 @@ This tool provides encoding and decoding for the ROT13 cipher. It is part of the
 - Encode or decode text using the ROT13 cipher
 - Simple, stateless transformation (same operation for encode/decode)
 
-## Installation
+## Quick Start (Interactive Mode)
+
+You can access this cipher through the main CipherCrack menu:
+
+```zsh
+# From the CipherCrack root directory
+python main.py
+# Then select option 3 for ROT13
+```
+
+## Installation (Standalone)
 
 ```zsh
 # Make the script executable and copy to bin directory

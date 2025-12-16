@@ -7,7 +7,17 @@ This tool provides encryption, decryption, and brute-force breaking for the clas
 - Decrypt ciphertext using a specified shift
 - Brute-force all possible shifts to break a Caesar cipher
 
-## Installation
+## Quick Start (Interactive Mode)
+
+You can access this cipher through the main CipherCrack menu:
+
+```zsh
+# From the CipherCrack root directory
+python main.py
+# Then select option 1 for Caesar Cipher
+```
+
+## Installation (Standalone)
 
 ```zsh
 # Make the script executable and copy to bin directory
