@@ -10,6 +10,7 @@ from tools.hill.hill_cipher import HillCipher
 from tools.rot13.rot13 import Rot13Cipher
 from tools.substitute.substitute import SubstitutionCipher
 from tools.vignere.vignere import VigenereCipher
+from tools.atbash.atbash_cipher import atbashCipher
 
 
 def display_menu():
@@ -17,13 +18,14 @@ def display_menu():
     print("         CipherCrack - Cipher Tool")
     print("="*50)
     print("\nAvailable Ciphers:")
-    print("  1. Caesar Cipher")
-    print("  2. Affine Cipher")
-    print("  3. ROT13")
-    print("  4. Vigenere")
+    print("  1. Affine Cipher")
+    print("  2. Atbash Cipher")
+    print("  3. Baconian")
+    print("  4. Caesar Cipher")
     print("  5. Hill")
-    print("  6. Baconian")
+    print("  6. ROT13")
     print("  7. Substitution")
+    print("  8. Vigenere")
     print("  0. Exit")
     print("="*50)
 
@@ -171,29 +173,48 @@ def vignere_menu():
     else:
         print("Invalid choice!")
         
+def atbash_menu():
+    print("\n--- Atbash Cipher")
+    print("1. Encrypt")
+    print("2. Decrypt")
+    
+    choice = input("\nSelect Operation: ")
+    text = input("Enter text: ")
+    
+    cipher = atbashCipher(text)
+    
+    if choice == '1':
+        print(f"\nEncrypted text: {cipher.encrypt()}")
+    elif choice == '2':
+        print(f"\nEncrypted text: {cipher.decrypt()}")
+    else:
+        print("Invalid choice")
+        
 
 def main():
     while True:
         display_menu()
-        choice = input("\nSelect a cipher (0-7): ").strip()
+        choice = input("\nSelect a cipher (0-8): ").strip()
         
         if choice == '0':
             print("\nGoodbye!")
             break
         elif choice == '1':
-            caesar_menu()
-        elif choice == '2':
             affine_menu()
+        elif choice == '2':
+            atbash_menu()
         elif choice == '3':
-            rot13_menu()
+            baconian_menu()
         elif choice == '4':
-            vignere_menu()
+            caesar_menu()
         elif choice == '5':
             hill_menu()
         elif choice == '6':
-            baconian_menu()
+            rot13_menu()
         elif choice == '7':
             substitution_menu()
+        elif choice == '8':
+            vignere_menu()
         else:
             print("\nInvalid choice! Please select a valid option.")
         
